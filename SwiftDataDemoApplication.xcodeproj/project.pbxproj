@@ -9,19 +9,22 @@
 /* Begin PBXBuildFile section */
 		3F77D5C42ADA771E00692262 /* SwiftDataDemoApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77D5C32ADA771E00692262 /* SwiftDataDemoApplicationApp.swift */; };
 		3F77D5C62ADA771E00692262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77D5C52ADA771E00692262 /* ContentView.swift */; };
-		3F77D5C82ADA771E00692262 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77D5C72ADA771E00692262 /* Item.swift */; };
+		3F77D5C82ADA771E00692262 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77D5C72ADA771E00692262 /* Person.swift */; };
 		3F77D5CA2ADA772000692262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F77D5C92ADA772000692262 /* Assets.xcassets */; };
 		3F77D5CD2ADA772000692262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F77D5CC2ADA772000692262 /* Preview Assets.xcassets */; };
+		3FFCF82E2ADB081E00761A2E /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCF82D2ADB081E00761A2E /* PersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F77D5C02ADA771E00692262 /* SwiftDataDemoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataDemoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F77D5C32ADA771E00692262 /* SwiftDataDemoApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataDemoApplicationApp.swift; sourceTree = "<group>"; };
 		3F77D5C52ADA771E00692262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3F77D5C72ADA771E00692262 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3F77D5C72ADA771E00692262 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3F77D5C92ADA772000692262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F77D5CC2ADA772000692262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F77D5CE2ADA772000692262 /* SwiftDataDemoApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataDemoApplication.entitlements; sourceTree = "<group>"; };
+		3FFCF82D2ADB081E00761A2E /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		3FFCF82F2ADB264100761A2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		3F77D5B72ADA771E00692262 = {
 			isa = PBXGroup;
 			children = (
+				3FFCF82F2ADB264100761A2E /* README.md */,
 				3F77D5C22ADA771E00692262 /* SwiftDataDemoApplication */,
 				3F77D5C12ADA771E00692262 /* Products */,
 			);
@@ -56,7 +60,8 @@
 			children = (
 				3F77D5C32ADA771E00692262 /* SwiftDataDemoApplicationApp.swift */,
 				3F77D5C52ADA771E00692262 /* ContentView.swift */,
-				3F77D5C72ADA771E00692262 /* Item.swift */,
+				3FFCF82D2ADB081E00761A2E /* PersonView.swift */,
+				3F77D5C72ADA771E00692262 /* Person.swift */,
 				3F77D5C92ADA772000692262 /* Assets.xcassets */,
 				3F77D5CE2ADA772000692262 /* SwiftDataDemoApplication.entitlements */,
 				3F77D5CB2ADA772000692262 /* Preview Content */,
@@ -142,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFCF82E2ADB081E00761A2E /* PersonView.swift in Sources */,
 				3F77D5C62ADA771E00692262 /* ContentView.swift in Sources */,
-				3F77D5C82ADA771E00692262 /* Item.swift in Sources */,
+				3F77D5C82ADA771E00692262 /* Person.swift in Sources */,
 				3F77D5C42ADA771E00692262 /* SwiftDataDemoApplicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
